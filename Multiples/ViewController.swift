@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var mathPlace: UILabel!
@@ -20,7 +20,10 @@ class ViewController: UIViewController {
     var previousNumber = 0
     var sum = 0
     let limit = 100
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.textField.delegate = self
+    }
     @IBAction func playButtonPressed (sender: UIButton){
         
         if textField.text != nil && textField.text != "" {
@@ -60,6 +63,10 @@ class ViewController: UIViewController {
         sum = 0
         previousNumber = 0
         mathPlace.text = "Press Add to add!"
+    }
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
 }
 

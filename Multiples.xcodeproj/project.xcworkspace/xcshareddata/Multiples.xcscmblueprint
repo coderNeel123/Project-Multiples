@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1DD35A8DEF6114DB15FA236DFACE44349D5ACF3B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E59CE17B1A7A710B51AE5A6544ADAEDB8C7E14F6" : 0,
+    "1DD35A8DEF6114DB15FA236DFACE44349D5ACF3B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "77D8F228-32A9-4A36-B945-BAD7A66E2B9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E59CE17B1A7A710B51AE5A6544ADAEDB8C7E14F6" : "",
+    "1DD35A8DEF6114DB15FA236DFACE44349D5ACF3B" : "Multiples\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Multiples",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Multiples.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/www.udemy.com\/ios9-swift\/learn\/v4\/t\/quiz\/164198",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DD35A8DEF6114DB15FA236DFACE44349D5ACF3B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:coderNeel123\/iOS-Boom-App-Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E59CE17B1A7A710B51AE5A6544ADAEDB8C7E14F6"
+    }
+  ]
+}
